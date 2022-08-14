@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DynaPuff&display=swap');
+
+.title {
+    color: rgb(210, 101, 192);
+    font-size: 50pt;
+    font-family: 'DynaPuff', cursive;
+    font-weight: bold;     
+}
+
+
+.list{
+    font-size: 24pt;
+    list-style: none;
+    font-family: 'DynaPuff';
+}
+
+
+li:nth-child(3n+1):before {
+    content: "🌸";
+}
+
+li:nth-child(3n+2):before {
+    content: "🌼";
+}
+
+li:nth-child(3n):before {
+    content: "🌺";
+}
+
+
+/* CSS */
+.button-33 {
+  background-color: #ba55c8;
+  border-radius: 100px;
+  box-shadow: rgba(63, 10, 53, 0.2) 0 -25px 18px -14px inset,rgba(167, 62, 155, 0.15) 0 1px 2px,rgba(184, 25, 142, 0.15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: whitesmoke;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'DynaPuff';
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
